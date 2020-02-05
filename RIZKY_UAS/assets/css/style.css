@@ -1,0 +1,195 @@
+@font-face {
+	font-family: "mon_bold";
+	src: url('../font/Montserrat-Bold.ttf');
+}
+@font-face {
+	font-family: "mon_black";
+	src: url('../font/Montserrat-Black.ttf');
+}
+@font-face {
+	font-family: "mon_reg";
+	src: url('../font/Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: "mon_med";
+	src: url('../font/Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: "mon_light";
+	src: url('../font/Montserrat-Light.ttf');
+}
+font-face {
+	font-family: "mon_sem";
+	src: url('../font/Montserrat-SemiBold.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.login{
+	background-image: url(../image/bg_login.png);
+	background-size: cover;	
+}
+
+.container{
+	width: 1300px;
+	margin: auto;	
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+}
+
+.form_login{
+	margin: 50px 0px 0px 0px;
+	padding: 0px;
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+
+h1{
+	font-family: mon_bold;
+}
+
+.form_login p{
+	font-family: mon_light;
+	padding-right: 100px;
+	color: gray;
+	padding-bottom: 15px;
+}
+
+.input_login .form-group{
+	margin-right: 135px;
+	font-family: mon_reg;
+}
+
+.form-control{
+
+}
+
+.form-control::-webkit-input-placeholder{
+	color: gray;
+	font-size: 12px;
+}
+
+.custom-control{
+	float: left;
+}
+
+.custom-control-label{
+	font-family: mon_reg;
+	padding-top: 2px;
+	font-size: 14px;
+}
+
+.lupapassword{
+	margin-top: 2px;
+	margin-right: 35px;
+	float: right;
+}
+
+.lupapassword a{	
+	font-family: mon_reg;
+	font-size: 14px;
+	color: black;	
+}
+.lupapassword a:hover{
+	color: #ff2d9b;
+	text-decoration: none;
+}
+
+.btn_masuk{	
+	background-color: #ff2d9b;
+	padding: 6px;
+	color: white;
+	font-size: 14px; 
+	font-family: mon_bold;
+	border-radius: 6px;
+}
+.daftar{
+	margin-right: 25px;
+	font-size: 14px;
+	color: gray;
+}
+.daftar a{
+	font-family: mon_bold;
+	color: #ff2d9b;
+	
+}
+.daftar a:hover{
+	color: #ff2d9b;
+	text-decoration: none;
+}
+
+.ilustrasi{
+	margin: -30px;
+	padding: 0px;
+	width: 50%;
+	height: 100px;
+	float: right;
+}
+
+.ilustrasi img{
+	margin: 0px;
+	padding: 0px;
+	width: 589px;
+	height: 497px;
+
+}
+
+
+/*==================================================================*/
+
+.register{
+	background-image: url(../image/bg_register.png);
+	background-size: cover;	
+}
+
+.ilustrasi_register{
+	width: 50%;
+	float: left;
+}
+.ilustrasi_register img{
+	margin-top: 50px;
+	padding: 0px;
+	width: 629px;
+	height: 537px;
+}
+
+.form_register{
+	padding: 100px 0px 0px 130px;
+	width: 50%;
+	float: right;
+}
+
+.form_register p{
+	font-family: mon_light;
+	padding-right: 100px;
+	color: gray;
+	padding-bottom: 15px;
+}
+
+.form-group label{
+	font-family: mon_bold;
+	font-size: 12px;
+}
+
+.ayo_login{	
+	margin-left: 80px;
+	font-size: 14px;
+	color: gray;
+}
+.ayo_login a{
+	font-family: mon_bold;
+	color: #ff2d9b;
+	
+}
+.ayo_login a:hover{
+	color: #ff2d9b;
+	text-decoration: none;
+}

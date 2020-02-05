@@ -1,0 +1,253 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	@font-face {
+		font-family: "mon_bold";
+		src: url('../font/Montserrat-Bold.ttf');
+	}
+	@font-face {
+		font-family: "mon_black";
+		src: url('../font/Montserrat-Black.ttf');
+	}
+	@font-face {
+		font-family: "mon_reg";
+		src: url('../font/Montserrat-Regular.ttf');
+	}
+	@font-face {
+		font-family: "mon_med";
+		src: url('../font/Montserrat-Medium.ttf');
+	}
+	@font-face {
+		font-family: "mon_light";
+		src: url('../font/Montserrat-Light.ttf');
+	}
+	font-face {
+		font-family: "mon_sem";
+		src: url('../font/Montserrat-SemiBold.ttf');
+	}
+
+	body{
+		background-image: url(../image/bg_admin.png);
+		background-size: cover;	
+	}
+
+	.container{
+		width: 1100px;
+		margin: auto;	
+	}
+	.container-tabel{
+		background-color: white;
+		padding: 20px;
+		border-radius: 10px;
+		width: 800px;
+		margin-left: 40px;	
+		margin-top: 20px;							
+	}
+
+	/*=========================SIDE BAR============================*/
+
+	.sidebar{		
+		width: 20%;
+		float: left;
+	}
+
+
+	/*=--Logo Hap-hap--=*/
+	.atas{
+		background-color: #3d5654;
+		width: 100%;
+		height: 220px;	
+		border-top-right-radius: 25px;
+	}
+	.atas img{
+		width: 102px;
+		height: 100px;
+		margin: 30px 0px 10px 60px;		
+	}
+	.atas h2{
+		text-align: center;
+		color: white;	
+		font-family: mon_reg;					
+		font-size: 16px;
+		font-weight: normal;		
+	}
+	.atas h3{
+		margin-top: -5px;
+		text-align: center;
+		color: white;	
+		font-family: mon_reg;					
+		font-size: 14px;		
+		font-weight: normal;
+	}
+	.atas a{		
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		font-family: mon_reg;
+		font-size: 12px;
+	}
+	.atas a:hover{
+		color: #c99c33;	
+	}
+
+
+
+	/*=--Nav Menu--=*/
+	.bawah{	
+		background-color: #425c5a;
+		width: 100%;
+		height: 475px;
+	}
+	.bawah ul{				
+		padding-top: 15px;
+	}
+	.bawah ul li{			
+		list-style-type: none;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		padding: 5px;
+		margin: 20px 0px 20px 20px;		
+		border: none;
+
+	}
+	.bawah ul li .btn-dash{					
+		text-decoration: none;	
+		color:  white;	
+		font-family: mon_bold;
+		font-size: 14px;	
+		padding-top: 7px;					
+		border-top-right-radius: -50px;
+	}
+	.bawah ul li .btn-tambah{					
+		text-decoration: none;	
+		color:  white;	
+		font-family: mon_bold;
+		font-size: 14px;	
+		padding-top: 7px;					
+		border-top-right-radius: -50px;
+	}
+	.bawah ul li .btn{					
+		text-decoration: none;	
+		color: white;	
+		font-family: sans-serif;	
+		position: fixed;
+		font-size: 14px;	
+		padding-top: 7px;					
+		border-top-right-radius: -50px;
+	}
+	.bawah ul li img{
+		margin-right: 15px;	
+		margin-left: 20px;	
+		width: 24px;
+		height: 24px;
+	}
+	.bawah ul li a:hover{
+		color: #c99c33;				
+	}
+	.sidedash {
+		background-color: #8ac7fe;
+		color: #ff2d9b;
+	}
+
+
+	#sidenav a {
+		position: absolute;
+		left: -80px;
+		transition: 0.3s;
+		padding: 15px;
+		width: 100px;
+		text-decoration: none;
+		font-size: 18px;
+		color: white;
+		border-radius: 0 5px 5px 0;
+		font-family: sans-serif;
+	}
+	#sidenav a:hover {
+		left: 0;
+	}	
+	#about {
+		top: 560px;
+		background-color: #ff2d9b;
+	}
+	#contact {
+		top: 620px;
+		background-color: #3d5654;
+	}
+
+	.versi{
+		font-family: mon_reg;
+		color: white;
+		margin: 195px 40px 0px 80px;
+		font-size: 12px;
+		font-weight: normal;
+
+	}
+
+
+	/*=========================CONTENT============================*/
+	.content{
+		background-color: #e1eceb;
+		width: 80%;
+		height: 695px;		
+		float: right;
+		box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+	}
+
+	/*=--Input Data Sewa--=*/
+	.label-sewa{
+		text-align: center;
+		font-family: mon_med;
+		color: black;
+		font-size: 40px;
+		margin: 70px 0px 0px 200px;
+	}
+	.label-tambah{
+		text-align: center;
+		font-family: mon_med;
+		color: black;
+		font-size: 40px;
+		margin: 70px 0px 0px 100px;
+	}
+	.container-sewa{
+		width: 700px;
+		margin-left: 30px;	
+		margin-top: 30px;							
+	}
+	label{
+		font-family: mon_reg;
+		color: #3d5654;
+		font-size: 16px;
+
+	}
+
+	.logout{
+		
+		font-family: mon_med;
+		margin: 100px 0px 0px 85px;
+	}
+
+	/*=--Set Tanggal dan Waktu--=*/
+	.tanggal{	
+		margin-top: 10px;
+		float: right;	
+		margin-right: 30px;		
+		
+	}
+	.tanggal .tgl{
+		margin-top: 10px;
+		text-align: center;
+		color: black;
+		font-size: 18px;
+		font-family: sans-serif;
+		font-weight: normal;
+	}
+	.tanggal .jam{
+		margin-top: -25px;
+		text-align: center;
+		color: black;
+		font-size: 18px;
+		font-family: sans-serif;
+		font-weight: normal;
+	}

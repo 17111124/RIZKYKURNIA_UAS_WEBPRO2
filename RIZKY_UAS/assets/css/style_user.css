@@ -1,0 +1,104 @@
+html {
+   position: relative;
+}
+
+body {
+   margin-bottom: 100px;
+   margin-top: 30px;
+}
+
+.jumbotron {
+   background-image: url(../image/bg_login.png);
+   background-size: cover;
+   background-position: 0 -100px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;   
+   overflow: hidden;
+}
+
+.div-img{
+	padding-top: 50px;
+}
+
+
+.about hr {
+   width: 250px;
+   border: 1px solid #8ac7fe;    
+}
+.about p{
+	padding-top: 40px;
+}
+
+.portfolio hr {
+   width: 250px;
+   border: 1px solid #ff2d9b;   
+}
+.contact hr {
+   width: 250px;
+   border: 1px solid #8ac7fe; 
+}
+
+.about{
+	padding-top: 50px;
+	height: 400px;
+	background-color: #eee;
+}
+
+.portfolio{
+	padding-top: 50px;
+	background-color: rgba(222, 238, 245, 0.3);
+}
+
+.contact{
+	padding-top: 50px;
+}
+
+section {
+   min-height: 600px;
+}
+
+.pKiri, .pKanan {
+   opacity: 0;
+   transition: 1s;
+}
+
+.pKiri {
+   transform: translate(-100px, 0) scale(1.5);
+}
+
+.pKanan {
+   transform: translate(100px, 0) scale(1.5);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+   opacity: 1;
+   transform: translate(0, 0) scale(1);
+}
+
+.portfolio .thumbnail {
+   opacity: 0;
+   transform: translate(0, -20px);
+   transition: 1s;
+}
+
+.portfolio .thumbnail.muncul {
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.contact {
+   min-height: 800px;
+   margin-bottom: 50px;
+}
+
+.row .col-sm-4 .thumbnail:hover {
+   border: 1px solid #3b5999;
+}
+
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background-color: #e0e0e0;
+   padding: 10px 0px 5px 0px;
+}
